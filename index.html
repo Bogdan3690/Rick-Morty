@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Rick-Morty</title>
     <script type="module" crossorigin src="/Rick-Morty/assets/index-e1745691.js"></script>
     <link rel="stylesheet" href="/Rick-Morty/assets/index-42e1480d.css">
@@ -19,23 +20,53 @@
     
 <header>
         <div class="container">
-    <a href=""><img src="../img/logo.svg" alt=""></a>
+    <a href=""><img src="/Rick-Morty/assets/logo-3473f31c.svg" alt=""></a>
     </div>
 </header>
 <section class="hero">
     <div class="container">
-    <img src="../img/hero-img.png" alt="">
-    <img src="../img/logo.svg" alt="">
+    <img src="/Rick-Morty/assets/hero-img-fbe16074.png" alt="">
+    <img src="/Rick-Morty/assets/logo-3473f31c.svg" alt="">
     <p class="text">If you're a fan of Rick and Morty, you don't want to miss out on our app!  Start exploring the endless possibilities of Rick and Morty!</p>
 </div>
 </section>
     <main>
-    <div class="container">
-        <div class="search-box">
-        </div>
-        <ul></ul>
+  <div class="container">
+    <div class="search-box">
+      <div class="search-item">
+        <label for="">
+          Name
+        </label>
+          <input type="text" />
+          <button></button>
+      </div>
+
+      <div class="search-item">
+        <label for="status">
+            Status
+        </label>
+      <select name="status" id="status">
+        <option value="alive">Alive</option>
+        <option value="dead">Dead</option>
+        <option value="unknow">Unknow</option>
+      </select>
+      </div>
+
+            <div class="search-item">
+        <label for="species">
+            Species
+        </label>
+      <select name="species" id="species">
+        <option value="alive">Human</option>
+        <option value="dead">Dead</option>
+        <option value="unknow">Unknow</option>
+      </select>
+      </div>
     </div>
+    <ul></ul>
+  </div>
 </main>
+
               <footer>
     <div class="container">
         <img src="../img/footer-1.png" alt="">
