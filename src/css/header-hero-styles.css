@@ -1,0 +1,13 @@
+header{
+    padding: 20px 0;
+    background-color: var(--second-background-color);
+}
+
+.hero{
+    padding-top: 80px;
+    padding-bottom: 148px;
+    background-color: var(--second-background-color);
+    color: var(--main-background-color);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}

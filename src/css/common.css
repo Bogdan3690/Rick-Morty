@@ -1,0 +1,26 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+--main-color: #000;
+--second-background-color: #0D171D;
+--main-background-color: #FAFAFA;
+--second-color: #FAFAFA80;
+--acsent-color: #A1D737;
+
+
+
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+
+
+  color: var(--main-color);
+  background-color: var(--main-background-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
