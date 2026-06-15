@@ -1,4 +1,33 @@
 footer{
     padding-top: 40px;
     padding-bottom: 16px;
+    background-color: var(--second-background-color);
+    color: var(--second-color);
+}
+
+footer .text{
+    margin-top: 80px;
+}
+
+.social-links{
+    display: flex;
+    gap: 12px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    margin-top: 40px;
+}
+
+.footer-images{
+    position: relative;
+}
+
+.r-and-m{
+    position: absolute;
+    bottom: 42px;
+    left: 0px;
 }
