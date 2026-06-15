@@ -28,7 +28,7 @@ position: relative;
 }
 
 .search-item input{
-    width: 235px;
+    width: 335px;
     color: var(--main-color);
     border-color: var(--main-color);
     border-width: 1.5px;
@@ -53,15 +53,28 @@ border-radius: 100px;
     gap: 40px;
 }
 
-.character-item{}
+/* .character-item{
+} */
 
-.character-img{}
+.character-img{
+    border-radius: 20px;
+    border: solid 2px var(--acsent-color);
+}
 
-.character-list{}
+.name-character{
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
 
-.name-character{}
+.character-text.first{
+    margin-bottom: 4px;
+}
 
-.character-text{}
+.character-text{
+    margin: 0;
+}
 
-.character-description{}
+.character-description{
+    color: var(--text-color);
+}
 
