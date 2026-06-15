@@ -7,6 +7,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 20px 10px;
+    margin-bottom: 44px;
 }
 
 .search-item{
@@ -45,4 +46,22 @@ border-radius: 100px;
     background-color: transparent;
     width: 162px;
 }
+
+.character-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.character-item{}
+
+.character-img{}
+
+.character-list{}
+
+.name-character{}
+
+.character-text{}
+
+.character-description{}
 
