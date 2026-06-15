@@ -10,15 +10,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Rick-Morty</title>
-    <script type="module" crossorigin src="/Rick-Morty/assets/index-6daa5915.js"></script>
-    <link rel="stylesheet" href="/Rick-Morty/assets/index-4d968306.css">
+    <script type="module" crossorigin src="/Rick-Morty/assets/index-542382ff.js"></script>
+    <link rel="stylesheet" href="/Rick-Morty/assets/index-cdc61206.css">
   </head>
+  
   
   <body>
 
     <!-- Loads the specified .html file -->
-    
-<header>
+    <header>
         <div class="container">
     <a href=""><img src="/Rick-Morty/assets/logo-3473f31c.svg" alt=""></a>
     </div>
@@ -26,7 +26,7 @@
 <section class="hero">
     <div class="container">
     <img src="/Rick-Morty/assets/hero-img-fbe16074.png" alt="">
-    <img src="/Rick-Morty/assets/logo-3473f31c.svg" alt="">
+    <img class="logo-img" src="/Rick-Morty/assets/logo-3473f31c.svg" alt="">
     <p class="text">If you're a fan of Rick and Morty, you don't want to miss out on our app!  Start exploring the endless possibilities of Rick and Morty!</p>
 </div>
 </section>
@@ -37,9 +37,11 @@
         <label for="name">
           Name
         </label>
-          <input type="text" />
+          <input class="name" type="text" placeholder="Enter name"/>
           <button type="submit"><img src="/Rick-Morty/assets/search-200dbcd6.svg" alt=""></button>
       </div>
+
+<div class="wrapper">
 
       <div class="search-item">
         <label for="status">
@@ -69,11 +71,13 @@
       </select>
       </div>
 
+</div>
+
        <div class="search-item">
-        <label for="species">
+        <label for="gender">
             Gender
         </label>
-      <select name="species" id="species">
+      <select name="gender" id="gender">
         <option value="man">Man</option>
         <option value="woman">Woman</option>
         <option value="unknow">Unknow</option>
@@ -86,13 +90,21 @@
 
               <footer>
     <div class="container">
-        <img src="/Rick-Morty/assets/footer-1-40140f49.png" alt="">
+
+
+        <div class="wrap">
+            <div class="footer-images">
         <img src="/Rick-Morty/assets/footer-2-4a0bcc0e.png" alt="">
+        <img class="r-and-m" src="/Rick-Morty/assets/footer-1-40140f49.png" alt="">
+        </div>
         <ul class="social-links">
-            <li><a href=""><img src="" alt=""></a></li>
-            <li><a href=""><img src="" alt=""></a></li>
-            <li><a href=""><img src="" alt=""></a></li>
+            <li><a href=""><img src="/Rick-Morty/assets/twitter-7ea041c5.svg" alt=""></a></li>
+            <li><a href=""><img src="/Rick-Morty/assets/instagram-45ecee00.svg" alt=""></a></li>
+            <li><a href=""><img src="/Rick-Morty/assets/facebook-3ea81b4c.svg" alt=""></a></li>
         </ul>
+
+
+</div>
         <p class="text">Privacy Policy Public Offering Agreement</p>
     </div>
 </footer>
