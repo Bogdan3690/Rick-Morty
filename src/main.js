@@ -1,5 +1,6 @@
 import { fetchCharacters } from './js/server';
 import { createCards } from './js/create-markup';
+import "./js/load-more.js"
 const list = document.querySelector('.character-list');
 
 fetchCharacters()
