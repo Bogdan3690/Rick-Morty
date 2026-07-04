@@ -1,6 +1,10 @@
 main{
     padding-top: 104px;
     padding-bottom: 80px;
+        @media screen and (min-width: 768px) {
+    padding-top: 169px;
+    padding-bottom: 128px;
+}     
 }
 
 .search-box{
@@ -50,7 +54,11 @@ border-radius: 100px;
 .character-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 40px;   
+    @media screen and (min-width: 768px) {
+        display: flex;
+    gap: 25px;
+}         
 }
 
 /* .character-item{
@@ -78,5 +86,15 @@ border-radius: 100px;
     color: var(--text-color);
 }
 
-
+.load-more{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    background-color: var(--acsent-color);
+    color: var(--main-color);
+    border-radius: 25%;
+    padding: 24px 12px;
+    border: transparent;
+}
 

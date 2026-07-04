@@ -12,14 +12,27 @@ header{
     border-bottom-right-radius: 60px;
 }
 
+.header-img{
+        margin-left: auto;
+    margin-right: auto;
+}
+
 .logo-img{
     margin-top: 24px;
     margin-bottom: 4px; 
     margin-left: auto;
     margin-right: auto;
+        @media screen and (min-width: 768px) {
+        width: 460px;
+}
 }
 
 .hero .text{
     text-align: center;
     font-weight: 400;
+        @media screen and (min-width: 768px) {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
