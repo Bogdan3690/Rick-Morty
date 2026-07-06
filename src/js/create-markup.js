@@ -1,4 +1,7 @@
-function createCards(characters, list) {
+
+const list = document.querySelector(".character-list")
+
+function createCards(characters) {
   const markup = characters
     .map(character => {
       return `<li class="character-item">

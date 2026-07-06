@@ -2,7 +2,7 @@ import { createCards } from "./create-markup";
 import { fetchCharacters } from "./server";
 
 const btn = document.querySelector(".js-load-more")
-const list = document.querySelector(".character-list")
+// const list = document.querySelector(".character-list")
 let countOfPages = 1
 let page = 1
 
@@ -23,7 +23,7 @@ async function onLoadMoreBtnClick(params) {
         return
     }
     btn.disabled = false
-    createCards(data.results, list)
+    createCards(data.results)
    } catch (error) {
     console.log(error);
 
