@@ -4,6 +4,10 @@ header{
 }
 
 .hero{
+    position: relative;
+    background-image: url(../img/blocks.png);
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 80px;
     padding-bottom: 148px;
     background-color: var(--second-background-color);
@@ -34,7 +38,12 @@ header{
     width: 420px;
     margin-left: auto;
     margin-right: auto;
+
+}
 }
 
-
+.hero-left{
+    @media screen and (min-width: 1216px) {
+        display: flex;
+}
 }

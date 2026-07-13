@@ -21,6 +21,9 @@ footer .text{
     align-items: center;
     gap: 42px;
     margin-top: 40px;
+        @media screen and (min-width: 1216px) {
+            justify-content: space-between;
+}
 }
 
 .footer-images{

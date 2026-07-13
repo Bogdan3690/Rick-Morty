@@ -12,6 +12,12 @@ main{
     flex-wrap: wrap;
     gap: 20px 10px;
     margin-bottom: 44px;
+        @media screen and (min-width: 1216px) {
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
 }
 
 .search-item{
@@ -58,11 +64,17 @@ border-radius: 100px;
     @media screen and (min-width: 768px) {
         display: flex;
     gap: 25px;
+        @media screen and (min-width: 1216px) {
+            width: 1200px;
+}
 }         
 }
 
-/* .character-item{
-} */
+.character-item{
+    @media screen and (min-width: 1216px) {
+        width: 281px;
+}
+}
 
 .character-img{
     border-radius: 20px;
