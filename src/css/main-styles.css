@@ -105,8 +105,8 @@ border-radius: 100px;
     margin-top: 64px;
     background-color: var(--acsent-color);
     color: var(--main-color);
-    border-radius: 35%;
-    padding: 24px 12px;
+    border-radius: 35px;
+    padding: 20px 20px;
     border: transparent;
 }
 
